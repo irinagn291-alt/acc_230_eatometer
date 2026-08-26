@@ -1,0 +1,1 @@
+Search or scan a specimen, log it to Reading I, II, III or Spot Check, and review 7, 30 and 90-day traces on the Analytics drum.

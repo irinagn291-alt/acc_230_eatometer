@@ -1,0 +1,11 @@
+Initial release of Eatometer.
+
+• First-run onboarding with daily dial calibration or factory dials
+• Reading drum for today’s energy, macros and meal slots
+• Catalog search and Optical pickup barcode scanning
+• Take measurement with grams, slot assignment and planned horizon dates
+• Watchlist for saved specimens
+• Log with day navigation and 14-day horizon
+• Analytics with 7, 30 and 90-day trends, weekday averages, macro split, adherence and best/worst days
+• Targets for dial editing, data reset and support contact
+• Local Core Data storage with Open Food Facts lookup and a bundled offline shelf
