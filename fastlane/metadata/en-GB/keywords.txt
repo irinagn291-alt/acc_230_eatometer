@@ -1,1 +1,1 @@
-food log,calories,macros,barcode,scan,nutrition,tracker,openfoodfacts
+food,log,calories,macros,barcode,scan,nutrition,tracker,openfoodfacts
