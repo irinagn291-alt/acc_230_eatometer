@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C08A0CE0C19E5741D86BE0E /* ContactWebSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594EB582198C9E7A23672C9 /* ContactWebSheet.swift */; };
+		FD79E82C41B938B2BC6262C2 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF41D10DFB62F837871B3C1 /* APIConfig.swift */; };
+		0ABEF161301B3C65ED396796 /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CF7937FCD00F268F4B4D11 /* CatalogClient.swift */; };
+		0D68A98C231169108771D858 /* CatalogSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B960369369C304E89799D82 /* CatalogSelector.swift */; };
+		1519A9210CCDE6E058100266 /* DialSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5103328DBD60714969C79 /* DialSlot.swift */; };
+		17AC05E11AAC1AC15A3FD703 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 9C3DD89ABE545FC277F89427 /* OrderedCollections */; };
+		2406071264EACA9CC7F9B6EF /* DialBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5C6FAD9EF1033090EA667E /* DialBarcode.swift */; };
+		26800B1DD70164C25B58167A /* SearchMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD969306AA276E6F1B59F17 /* SearchMiddleware.swift */; };
+		28010F9AAB82A8B93EDD0355 /* ChartLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D681F9E59BA6DA3BA359F9 /* ChartLayers.swift */; };
+		347C4839345CB3E1663C2491 /* MeterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC66F4407D8CBFE42151E0 /* MeterAction.swift */; };
+		3E97884EA0C0FDE726CC06A5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20FFD9EFC03D134363F0902 /* AppState.swift */; };
+		40DB7F2567637F652EB6FA51 /* GaugeMaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32199DC12CB68600F90810 /* GaugeMaths.swift */; };
+		41E205B4D977A0E2DD57CAF9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 89E5683EC9402B6BF06803C1 /* PrivacyInfo.xcprivacy */; };
+		4266FF7742175451DB9342FE /* MeasurementAssignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F8C360DF4C987D26E3DDD /* MeasurementAssignController.swift */; };
+		48AD21C3A83175C99DCC78E9 /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE01013D35138D8C5A696D /* AppLaunch.swift */; };
+		48FE569713A5CD60089EF77A /* SearchDialState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F54DF7E17205624211DFA1 /* SearchDialState.swift */; };
+		4BED9D0F48E7C43E8412CC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0BA36B6100A9BD4A10D47E /* Assets.xcassets */; };
+		4FE7F5120E6A656700FD9FCC /* MeterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED78ED84EA236D597F7C7E2 /* MeterStore.swift */; };
+		53450B0B65EC388D889F249F /* DialScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC4F7529F55FB1665DF8BE /* DialScanController.swift */; };
+		5F0CB1445A7956E5D7D5319E /* WatchlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D2062DDCE5C4ACDFA97 /* WatchlistController.swift */; };
+		5F67B34E18DF39D589932FC8 /* RootSwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1B74B0764CEA00A91AA688 /* RootSwitchController.swift */; };
+		61029E83721927FA6ABE8911 /* DomainRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C0039B0549193D8887E60 /* DomainRecords.swift */; };
+		6673F36FF344A29A0054922C /* DialPersistenceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA994C8FEBDF88F43EABFE17 /* DialPersistenceStack.swift */; };
+		670D2A84F28AB765DD31EBCF /* RootInstrumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7985BD855450C20AF592DA26 /* RootInstrumentController.swift */; };
+		6749A60E0059B79ED4EED17F /* CatalogSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BBA2DBDA762DBD7F74C80 /* CatalogSearchController.swift */; };
+		77342A83844DF50C36A13EF6 /* MeterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF19136F8DA3AE08DCFF3BE /* MeterReducer.swift */; };
+		79BFE6B462E5B97D40E69FAC /* InstrumentCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94410A8E5B14FB9D073390B /* InstrumentCells.swift */; };
+		8182B63D5E4F08047A91BB56 /* CatalogMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE6B977570B826915E788C6 /* CatalogMiddleware.swift */; };
+		839BD1BB5B20EB91269BFDE1 /* OnboardingInstrumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDA292A7B2DCF3A963A7E4 /* OnboardingInstrumentController.swift */; };
+		8C7E027422CD2564836E834B /* EatometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306851C7169C41108C64880 /* EatometerTests.swift */; };
+		93F4BF231D4E6B86F0CE0769 /* ReadingSegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B71B6B3961E63D2ECEA70 /* ReadingSegmentController.swift */; };
+		9F6002EFD7F35FDE941EF3A0 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 1B162AFE8FC7C3617C6E0FBE /* Algorithms */; };
+		A2A40685682E56079780F065 /* SpecimenShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C9D6A1A0373260825FA4C /* SpecimenShelf.swift */; };
+		A65D360F4DC8D658824C3BF8 /* AnalyticsSegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EA7828793F73150161F7C /* AnalyticsSegmentController.swift */; };
+		AB910E04AA69A76A186047FB /* InstrumentTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C3FEE6ED45040C2A6D79D6 /* InstrumentTypography.swift */; };
+		BD541941627A087727429C19 /* TargetsSegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D8F6E1DAE10B7FC43200E /* TargetsSegmentController.swift */; };
+		C1068F99330CC9D19722C2B8 /* PersistenceEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0B2AD582723E6508ED1C7 /* PersistenceEntities.swift */; };
+		C4F2296DF734A31498956939 /* ReadingSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2A38A9F65330343F8B89C /* ReadingSelector.swift */; };
+		C72FD6B6B5F87DD734225603 /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AC73B824A29E41CED724EC /* DayKey.swift */; };
+		CC161344C943260B6D2E3074 /* AnalyticsSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B108C99DA55C2789BDCBAC0 /* AnalyticsSelector.swift */; };
+		D232B9B7C829898A03D59772 /* InstrumentPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B6194662D25925026A8E67 /* InstrumentPalette.swift */; };
+		D379AF26400B197284E73BAB /* LogSegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDD423933015E1825DECD65 /* LogSegmentController.swift */; };
+		D68117BCF691CA7A941F2C8C /* InstrumentChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52810C20071B55993BA7D4FD /* InstrumentChrome.swift */; };
+		F9D949E426C305421623BC30 /* PersistenceMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5FBB671425126F4147DCFE /* PersistenceMiddleware.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8714721130E1DCCF331EF7F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A370FFE27A98BBF189A4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F7ADBB8803D850AC34A8F2;
+			remoteInfo = Eatometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D594EB582198C9E7A23672C9 /* ContactWebSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWebSheet.swift; sourceTree = "<group>"; };
+		0BF41D10DFB62F837871B3C1 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		00F54DF7E17205624211DFA1 /* SearchDialState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDialState.swift; sourceTree = "<group>"; };
+		01FDA292A7B2DCF3A963A7E4 /* OnboardingInstrumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInstrumentController.swift; sourceTree = "<group>"; };
+		0ED78ED84EA236D597F7C7E2 /* MeterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterStore.swift; sourceTree = "<group>"; };
+		1D4D8F6E1DAE10B7FC43200E /* TargetsSegmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsSegmentController.swift; sourceTree = "<group>"; };
+		1DAC4F7529F55FB1665DF8BE /* DialScanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialScanController.swift; sourceTree = "<group>"; };
+		20BA8D2062DDCE5C4ACDFA97 /* WatchlistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistController.swift; sourceTree = "<group>"; };
+		213C9D6A1A0373260825FA4C /* SpecimenShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecimenShelf.swift; sourceTree = "<group>"; };
+		227F8C360DF4C987D26E3DDD /* MeasurementAssignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementAssignController.swift; sourceTree = "<group>"; };
+		22D681F9E59BA6DA3BA359F9 /* ChartLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLayers.swift; sourceTree = "<group>"; };
+		26DC66F4407D8CBFE42151E0 /* MeterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterAction.swift; sourceTree = "<group>"; };
+		29C0B2AD582723E6508ED1C7 /* PersistenceEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceEntities.swift; sourceTree = "<group>"; };
+		2C5FBB671425126F4147DCFE /* PersistenceMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceMiddleware.swift; sourceTree = "<group>"; };
+		2C9EA7828793F73150161F7C /* AnalyticsSegmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsSegmentController.swift; sourceTree = "<group>"; };
+		3702FCEB9961AE638379AD68 /* EatometerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EatometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B960369369C304E89799D82 /* CatalogSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogSelector.swift; sourceTree = "<group>"; };
+		477B71B6B3961E63D2ECEA70 /* ReadingSegmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingSegmentController.swift; sourceTree = "<group>"; };
+		4B108C99DA55C2789BDCBAC0 /* AnalyticsSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsSelector.swift; sourceTree = "<group>"; };
+		4C0BBA2DBDA762DBD7F74C80 /* CatalogSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogSearchController.swift; sourceTree = "<group>"; };
+		4FDD423933015E1825DECD65 /* LogSegmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSegmentController.swift; sourceTree = "<group>"; };
+		52810C20071B55993BA7D4FD /* InstrumentChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentChrome.swift; sourceTree = "<group>"; };
+		59F5103328DBD60714969C79 /* DialSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialSlot.swift; sourceTree = "<group>"; };
+		5AF19136F8DA3AE08DCFF3BE /* MeterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterReducer.swift; sourceTree = "<group>"; };
+		61AC73B824A29E41CED724EC /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		7985BD855450C20AF592DA26 /* RootInstrumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInstrumentController.swift; sourceTree = "<group>"; };
+		887C0039B0549193D8887E60 /* DomainRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainRecords.swift; sourceTree = "<group>"; };
+		89E5683EC9402B6BF06803C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8B32199DC12CB68600F90810 /* GaugeMaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeMaths.swift; sourceTree = "<group>"; };
+		95EA36AD1187AE42C767EF84 /* Eatometer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Eatometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CE01013D35138D8C5A696D /* AppLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunch.swift; sourceTree = "<group>"; };
+		AB0BA36B6100A9BD4A10D47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B306851C7169C41108C64880 /* EatometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatometerTests.swift; sourceTree = "<group>"; };
+		C1CF7937FCD00F268F4B4D11 /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+		C20FFD9EFC03D134363F0902 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C8C3FEE6ED45040C2A6D79D6 /* InstrumentTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTypography.swift; sourceTree = "<group>"; };
+		C94410A8E5B14FB9D073390B /* InstrumentCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentCells.swift; sourceTree = "<group>"; };
+		CCE6B977570B826915E788C6 /* CatalogMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogMiddleware.swift; sourceTree = "<group>"; };
+		DA994C8FEBDF88F43EABFE17 /* DialPersistenceStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialPersistenceStack.swift; sourceTree = "<group>"; };
+		EA1B74B0764CEA00A91AA688 /* RootSwitchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSwitchController.swift; sourceTree = "<group>"; };
+		F1A2A38A9F65330343F8B89C /* ReadingSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingSelector.swift; sourceTree = "<group>"; };
+		F6B6194662D25925026A8E67 /* InstrumentPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentPalette.swift; sourceTree = "<group>"; };
+		FC5C6FAD9EF1033090EA667E /* DialBarcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialBarcode.swift; sourceTree = "<group>"; };
+		FCD969306AA276E6F1B59F17 /* SearchMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMiddleware.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		156B5EA1A5E6E22B43AE98CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AC05E11AAC1AC15A3FD703 /* OrderedCollections in Frameworks */,
+				9F6002EFD7F35FDE941EF3A0 /* Algorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDB131448E707E3E6D896C9 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				C1CF7937FCD00F268F4B4D11 /* CatalogClient.swift */,
+				CCE6B977570B826915E788C6 /* CatalogMiddleware.swift */,
+				FC5C6FAD9EF1033090EA667E /* DialBarcode.swift */,
+				DA994C8FEBDF88F43EABFE17 /* DialPersistenceStack.swift */,
+				8B32199DC12CB68600F90810 /* GaugeMaths.swift */,
+				0ED78ED84EA236D597F7C7E2 /* MeterStore.swift */,
+				29C0B2AD582723E6508ED1C7 /* PersistenceEntities.swift */,
+				2C5FBB671425126F4147DCFE /* PersistenceMiddleware.swift */,
+				FCD969306AA276E6F1B59F17 /* SearchMiddleware.swift */,
+				213C9D6A1A0373260825FA4C /* SpecimenShelf.swift */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		6559E393F3F61AB41EC3B545 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				5AF19136F8DA3AE08DCFF3BE /* MeterReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		82E3B7BE649866CFFA712894 /* Selectors */ = {
+			isa = PBXGroup;
+			children = (
+				4B108C99DA55C2789BDCBAC0 /* AnalyticsSelector.swift */,
+				3B960369369C304E89799D82 /* CatalogSelector.swift */,
+				F1A2A38A9F65330343F8B89C /* ReadingSelector.swift */,
+			);
+			path = Selectors;
+			sourceTree = "<group>";
+		};
+		8C6C2BB6B538A3CFBB5CD86A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C9EA7828793F73150161F7C /* AnalyticsSegmentController.swift */,
+				4C0BBA2DBDA762DBD7F74C80 /* CatalogSearchController.swift */,
+				22D681F9E59BA6DA3BA359F9 /* ChartLayers.swift */,
+				1DAC4F7529F55FB1665DF8BE /* DialScanController.swift */,
+				C94410A8E5B14FB9D073390B /* InstrumentCells.swift */,
+				52810C20071B55993BA7D4FD /* InstrumentChrome.swift */,
+				F6B6194662D25925026A8E67 /* InstrumentPalette.swift */,
+				C8C3FEE6ED45040C2A6D79D6 /* InstrumentTypography.swift */,
+				4FDD423933015E1825DECD65 /* LogSegmentController.swift */,
+				227F8C360DF4C987D26E3DDD /* MeasurementAssignController.swift */,
+				01FDA292A7B2DCF3A963A7E4 /* OnboardingInstrumentController.swift */,
+				477B71B6B3961E63D2ECEA70 /* ReadingSegmentController.swift */,
+				7985BD855450C20AF592DA26 /* RootInstrumentController.swift */,
+				EA1B74B0764CEA00A91AA688 /* RootSwitchController.swift */,
+				1D4D8F6E1DAE10B7FC43200E /* TargetsSegmentController.swift */,
+				20BA8D2062DDCE5C4ACDFA97 /* WatchlistController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96D94B57340EF3A3C1AF2CC9 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				26DC66F4407D8CBFE42151E0 /* MeterAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		C82535268A74B6552C9EFFDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95EA36AD1187AE42C767EF84 /* Eatometer.app */,
+				3702FCEB9961AE638379AD68 /* EatometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCCA530A240DB57C51DBF88 /* Eatometer */ = {
+			isa = PBXGroup;
+			children = (
+				96CE01013D35138D8C5A696D /* AppLaunch.swift */,
+				D594EB582198C9E7A23672C9 /* ContactWebSheet.swift */,
+				0BF41D10DFB62F837871B3C1 /* APIConfig.swift */,
+				AB0BA36B6100A9BD4A10D47E /* Assets.xcassets */,
+				89E5683EC9402B6BF06803C1 /* PrivacyInfo.xcprivacy */,
+				96D94B57340EF3A3C1AF2CC9 /* Actions */,
+				5CDB131448E707E3E6D896C9 /* Middleware */,
+				6559E393F3F61AB41EC3B545 /* Reducers */,
+				82E3B7BE649866CFFA712894 /* Selectors */,
+				F73F3DC96242D1CB72D23851 /* State */,
+				8C6C2BB6B538A3CFBB5CD86A /* Views */,
+			);
+			path = Eatometer;
+			sourceTree = "<group>";
+		};
+		E03C4CC2FFC0E61C09A410EF = {
+			isa = PBXGroup;
+			children = (
+				CBCCA530A240DB57C51DBF88 /* Eatometer */,
+				F67DC4F92DC11683E5D81E0C /* EatometerTests */,
+				C82535268A74B6552C9EFFDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67DC4F92DC11683E5D81E0C /* EatometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B306851C7169C41108C64880 /* EatometerTests.swift */,
+			);
+			path = EatometerTests;
+			sourceTree = "<group>";
+		};
+		F73F3DC96242D1CB72D23851 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				C20FFD9EFC03D134363F0902 /* AppState.swift */,
+				61AC73B824A29E41CED724EC /* DayKey.swift */,
+				59F5103328DBD60714969C79 /* DialSlot.swift */,
+				887C0039B0549193D8887E60 /* DomainRecords.swift */,
+				00F54DF7E17205624211DFA1 /* SearchDialState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9438BF02A463369EB78ED4 /* EatometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1142E1D8B123E7291E0A703A /* Build configuration list for PBXNativeTarget "EatometerTests" */;
+			buildPhases = (
+				E3DCA022F1B6E5BB6C9FA6D8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B225ECDF050D5ED6E53E6634 /* PBXTargetDependency */,
+			);
+			name = EatometerTests;
+			packageProductDependencies = (
+			);
+			productName = EatometerTests;
+			productReference = 3702FCEB9961AE638379AD68 /* EatometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32F7ADBB8803D850AC34A8F2 /* Eatometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBB60E7A310DFF0B2D6FA1A /* Build configuration list for PBXNativeTarget "Eatometer" */;
+			buildPhases = (
+				EFA8B0314BF3D22620D7254E /* Sources */,
+				400B49A3A2B325E16601F371 /* Resources */,
+				156B5EA1A5E6E22B43AE98CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eatometer;
+			packageProductDependencies = (
+				9FEB67EBEF8189A6BBEF8CB2 /* Alamofire */,
+				9C3DD89ABE545FC277F89427 /* OrderedCollections */,
+				1B162AFE8FC7C3617C6E0FBE /* Algorithms */,
+			);
+			productName = Eatometer;
+			productReference = 95EA36AD1187AE42C767EF84 /* Eatometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A370FFE27A98BBF189A4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					32F7ADBB8803D850AC34A8F2 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 6CA878260C6CC3AA764E87D0 /* Build configuration list for PBXProject "Eatometer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E03C4CC2FFC0E61C09A410EF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0203CE6A6909B20651F74DB2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				86EAC40BCEA8F160F761014B /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				B9F9EE9DE9584230C11B017F /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C82535268A74B6552C9EFFDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F7ADBB8803D850AC34A8F2 /* Eatometer */,
+				1A9438BF02A463369EB78ED4 /* EatometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400B49A3A2B325E16601F371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BED9D0F48E7C43E8412CC6D /* Assets.xcassets in Resources */,
+				41E205B4D977A0E2DD57CAF9 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3DCA022F1B6E5BB6C9FA6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7E027422CD2564836E834B /* EatometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA8B0314BF3D22620D7254E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08A0CE0C19E5741D86BE0E /* ContactWebSheet.swift in Sources */,
+				FD79E82C41B938B2BC6262C2 /* APIConfig.swift in Sources */,
+				A65D360F4DC8D658824C3BF8 /* AnalyticsSegmentController.swift in Sources */,
+				CC161344C943260B6D2E3074 /* AnalyticsSelector.swift in Sources */,
+				48AD21C3A83175C99DCC78E9 /* AppLaunch.swift in Sources */,
+				3E97884EA0C0FDE726CC06A5 /* AppState.swift in Sources */,
+				0ABEF161301B3C65ED396796 /* CatalogClient.swift in Sources */,
+				8182B63D5E4F08047A91BB56 /* CatalogMiddleware.swift in Sources */,
+				6749A60E0059B79ED4EED17F /* CatalogSearchController.swift in Sources */,
+				0D68A98C231169108771D858 /* CatalogSelector.swift in Sources */,
+				28010F9AAB82A8B93EDD0355 /* ChartLayers.swift in Sources */,
+				C72FD6B6B5F87DD734225603 /* DayKey.swift in Sources */,
+				2406071264EACA9CC7F9B6EF /* DialBarcode.swift in Sources */,
+				6673F36FF344A29A0054922C /* DialPersistenceStack.swift in Sources */,
+				53450B0B65EC388D889F249F /* DialScanController.swift in Sources */,
+				1519A9210CCDE6E058100266 /* DialSlot.swift in Sources */,
+				61029E83721927FA6ABE8911 /* DomainRecords.swift in Sources */,
+				40DB7F2567637F652EB6FA51 /* GaugeMaths.swift in Sources */,
+				79BFE6B462E5B97D40E69FAC /* InstrumentCells.swift in Sources */,
+				D68117BCF691CA7A941F2C8C /* InstrumentChrome.swift in Sources */,
+				D232B9B7C829898A03D59772 /* InstrumentPalette.swift in Sources */,
+				AB910E04AA69A76A186047FB /* InstrumentTypography.swift in Sources */,
+				D379AF26400B197284E73BAB /* LogSegmentController.swift in Sources */,
+				4266FF7742175451DB9342FE /* MeasurementAssignController.swift in Sources */,
+				347C4839345CB3E1663C2491 /* MeterAction.swift in Sources */,
+				77342A83844DF50C36A13EF6 /* MeterReducer.swift in Sources */,
+				4FE7F5120E6A656700FD9FCC /* MeterStore.swift in Sources */,
+				839BD1BB5B20EB91269BFDE1 /* OnboardingInstrumentController.swift in Sources */,
+				C1068F99330CC9D19722C2B8 /* PersistenceEntities.swift in Sources */,
+				F9D949E426C305421623BC30 /* PersistenceMiddleware.swift in Sources */,
+				93F4BF231D4E6B86F0CE0769 /* ReadingSegmentController.swift in Sources */,
+				C4F2296DF734A31498956939 /* ReadingSelector.swift in Sources */,
+				670D2A84F28AB765DD31EBCF /* RootInstrumentController.swift in Sources */,
+				5F67B34E18DF39D589932FC8 /* RootSwitchController.swift in Sources */,
+				48FE569713A5CD60089EF77A /* SearchDialState.swift in Sources */,
+				26800B1DD70164C25B58167A /* SearchMiddleware.swift in Sources */,
+				A2A40685682E56079780F065 /* SpecimenShelf.swift in Sources */,
+				BD541941627A087727429C19 /* TargetsSegmentController.swift in Sources */,
+				5F0CB1445A7956E5D7D5319E /* WatchlistController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B225ECDF050D5ED6E53E6634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F7ADBB8803D850AC34A8F2 /* Eatometer */;
+			targetProxy = 8714721130E1DCCF331EF7F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23CDB5113E410E353BF16833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatometer.meter.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eatometer.app/Eatometer";
+			};
+			name = Release;
+		};
+		2FC287772E25A45ACF2977BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Eatometer;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Eatometer reads barcodes to take a measurement from a package.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = etm_background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = etm_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatometer.meter;
+				PRODUCT_NAME = Eatometer;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F544F2967B5F1DFB73693B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98380B02F853F0CD0DF0F128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Eatometer;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Eatometer reads barcodes to take a measurement from a package.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = etm_background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = etm_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatometer.meter;
+				PRODUCT_NAME = Eatometer;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A5E859C2D86600C297B0E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatometer.meter.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eatometer.app/Eatometer";
+			};
+			name = Debug;
+		};
+		AF9A4B3516F47F6EEFA88C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1142E1D8B123E7291E0A703A /* Build configuration list for PBXNativeTarget "EatometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5E859C2D86600C297B0E8D /* Debug */,
+				23CDB5113E410E353BF16833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6CA878260C6CC3AA764E87D0 /* Build configuration list for PBXProject "Eatometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9A4B3516F47F6EEFA88C32 /* Debug */,
+				8F544F2967B5F1DFB73693B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBBB60E7A310DFF0B2D6FA1A /* Build configuration list for PBXNativeTarget "Eatometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC287772E25A45ACF2977BA /* Debug */,
+				98380B02F853F0CD0DF0F128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0203CE6A6909B20651F74DB2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+		86EAC40BCEA8F160F761014B /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		B9F9EE9DE9584230C11B017F /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FEB67EBEF8189A6BBEF8CB2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0203CE6A6909B20651F74DB2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1B162AFE8FC7C3617C6E0FBE /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86EAC40BCEA8F160F761014B /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		9C3DD89ABE545FC277F89427 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9F9EE9DE9584230C11B017F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 40A370FFE27A98BBF189A4C2 /* Project object */;
+}

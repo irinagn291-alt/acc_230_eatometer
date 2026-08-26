@@ -1,0 +1,13 @@
+Eatometer is a personal food log for tracking daily energy and macros. It is not medical advice. Nutrition figures come from Open Food Facts.
+
+• Onboarding introduces the app and lets you set daily dials for Energy kcal, Protein g, Carbs g and Fat g, or skip with factory dials
+• Reading drum shows today’s energy remaining against your target, macro totals, and four slots: Reading I, Reading II, Reading III and Spot Check
+• Catalog search finds specimens by name with debounced lookup against Open Food Facts, falling back to a bundled local shelf
+• Optical pickup scans package barcodes with VisionKit, or accepts a typed code and local sample specimens when no camera is available
+• Take measurement shows per-100 g macros, a Grams field, live stroke totals, slot selection, Eaten today or a Horizon date up to 14 days ahead, watchlist marking, and Commit measurement
+• Watchlist stores barcode-unique specimens for quick measurement later
+• Log lists recorded strokes by day with Prev and Next navigation, deletion, Mark eaten today for planned strokes, and a 14-day horizon view
+• Analytics drum shows 7, 30 and 90-day energy trends, weekday averages, a macro split donut, adherence to the energy dial, and best and worst days
+• Targets lets you write dials, re-run onboarding, reset all data, and contact eatometer.pro
+
+All readings, targets and watchlist marks stay on your device in local storage.
